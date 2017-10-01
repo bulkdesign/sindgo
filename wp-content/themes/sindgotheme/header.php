@@ -68,7 +68,7 @@
       <ul>
         <li><a href="http://bulkdesign.com.br/sindgo" class="white-text">Home</a></li>
         <li><a href="#contato" class="white-text">Contato</a></li> 
-        <li><a href="Blog" class="white-text">Blog</a></li>
+        <li><a href="postagem" class="opcaomenu">Postagens</a></li>
       </ul>
     </nav>
   </aside>

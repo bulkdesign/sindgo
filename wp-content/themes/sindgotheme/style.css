@@ -185,7 +185,7 @@ nav.mobile-menu {
  *
  */
 #bemvindo{
-  height: 101vh;
+  height: 105vh;
   background-image: /*linear-gradient(to bottom, rgba(241,89,45, 0.3), rgba(241,89,45, 0.3)),*/linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('img/background/5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,6 +264,8 @@ nav.mobile-menu {
 
 #diferenciais img{
   width: 100%!important;
+  height: 200px!important;
+  max-height: 200px!important;
 }
 
 /*PÁGINA BLOG*/
@@ -437,6 +439,6 @@ blockquote{
   }
 
   #diferenciais img{
-    margin-top: 50px!important;
+    margin-top: 20px!important;
   }
 }
