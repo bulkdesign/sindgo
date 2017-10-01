@@ -2,7 +2,6 @@
 /**
  * Template da página inicial.
  */
-
 get_header('home'); ?>
 	<section id="bemvindo" class="section scrollspy">
 		<div class="container">
@@ -44,15 +43,15 @@ get_header('home'); ?>
 						<hr>
 					</div>
 					<div class="col s12 m6 l3 servico">
-						<img src="<?php bloginfo('template_url');?>/img/servicos/sindico3.png" class="responsive-img circle">
+						<img src="<?php bloginfo('template_url');?>/img/servicos/sindico.png" class="responsive-img circle">
 						<h3>Síndicos Profissionais</h3>
 					</div>
 					<div class="col s12 m6 l3 servico">
-						<img src="<?php bloginfo('template_url');?>/img/servicos/manutencao2.png" class="responsive-img circle">
+						<img src="<?php bloginfo('template_url');?>/img/servicos/manutencao.png" class="responsive-img circle">
 						<h3>Implantação de plano de manutenção predial</h3>
 					</div>
 					<div class="col s12 m6 l3 servico">
-						<img src="<?php bloginfo('template_url');?>/img/servicos/reforma.png" class="responsive-img circle">
+						<img src="<?php bloginfo('template_url');?>/img/servicos/gestao.png" class="responsive-img circle">
 						<h3>Gestão de reformas de condomínio</h3>
 					</div>
 					<div class="col s12 m6 l3 servico">

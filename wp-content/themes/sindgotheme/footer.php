@@ -34,9 +34,6 @@
                 </div>
               </div>
           </section>
-
-
-
           <div class="col s12">
             <div class="sitemap">
                <div class="col l2 m4 s12">
@@ -73,34 +70,8 @@
   </footer>
   <!-- IMPORTAÇÃO DOS ARQUIVOS DE JAVASCRIPT -->
   <script src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
-  <script src="<?php bloginfo('template_url') ?>/js/scripts.js"></script>
-  <script type="text/javascript">
-     $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-  </script>
-  <script type="text/javascript">
-    $('.brand-logo').css('display', 'none');
-  </script>
-  <script type="text/javascript">
-    window.addEventListener("scroll", function() {
-    if (window.scrollY > 50) {
-      $('.cordefundodomenu').css({"background-color": "#FFF", "transition-property": "all", "transition-duration": "0.5s"});
-      $('.opcaomenu').css('color', '#000');
-      $('.brand-logo').css('display', 'block!important');  
-      $('.toggle-overlay').css('color', '#000');  
-    }
-    else {
-      $('.cordefundodomenu').css('background-color', 'transparent');
-      $('.opcaomenu').css('color', '#FFF');
-      $('.brand-logo').css('display', 'none');
-      $('.toggle-overlay').css('color', '#FFF');
-
-
-    }
-  },false);
-  </script>
+  <script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/materialize.min.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/scripts.min.js"></script>
   <?php wp_footer(); ?>
   </body>
 </html>

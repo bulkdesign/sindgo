@@ -15,4 +15,19 @@ $(document).ready(function(){
   $('.toggle-overlay').click(function() {
     $('aside').toggleClass('open');
   });
-});   
+  $('.brand-logo').css('display', 'none');
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 50) {
+      $('.cordefundodomenu').css({"background-color": "#FFF", "transition-property": "all", "transition-duration": "0.5s"});
+      $('.opcaomenu').css('color', '#000');
+      $('.brand-logo').css('display', 'block!important');  
+      $('.toggle-overlay').css('color', '#000');  
+    }
+    else {
+      $('.cordefundodomenu').css('background-color', 'transparent');
+      $('.opcaomenu').css('color', '#FFF');
+      $('.brand-logo').css('display', 'none');
+      $('.toggle-overlay').css('color', '#FFF');
+    }
+  },false);
+});
