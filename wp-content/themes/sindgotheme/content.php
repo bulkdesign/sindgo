@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<section class="parallax-container imagem-topo">
-		<div class="parallax"><img src="<?php bloginfo('template_url');?>/img/background/5.jpg"></div>
+		<div class="parallax"><img src="<?php the_field('imagem_destaque'); ?>"></div>
 		<img src="<?php bloginfo('template_url');?>/img/logo/logo.png" class="logo">
 	</section>
 	<div class="container">

@@ -36,35 +36,33 @@
           </section>
           <div class="col s12">
             <div class="sitemap">
-               <div class="col l2 m4 s12">
-                <h5 class="white-text">Sobre</h5>
-                   <a href="#"><p>Sobre Nós</p></a>
-                   <a href="#"><p>Onde Comprar</p></a>
+               <div class="col l2 m6 s12">
+                <h5 class="white-text">Página Inicial</h5>
+                   <a href="#quemsomos"><p>QUem Somos</p></a>
+                   <a href="#servicos"><p>Serviços</p></a>
+                   <a href="#contato"><p>Contato</p></a>
+                   <a href="blog"><p>Blog</p></a>
                </div>
-                <div class="col l2 m4 s12">
-                <h5 class="white-text">Suporte</h5>
-                   <a href="#"><p>Contato</p></a>
-                   <a class=" waves-light modal-trigger" href="#modal1"><p>SAC</p></a>
-               </div>
-                <div class="col l2 m4 s12">
-                <h5 class="white-text">Legal</h5>
-                   <a href="#"><p>Privacidade</p></a>
-                   <a href="#"><p>Termos</p></a>
-               </div>            
+                <div class="col l2 m6 s12">
+                <h5 class="white-text">Redes Sociais</h5>
+                   <a href="http://facebook.com" target="_blank"><p>Facebook</p></a>
+                   <a href="http://instagram.com" target="_blank"><p>Instagram</p></a>
+                   <a href="http://twitter.com" target="_blank"><p>Twitter</p></a>
+                   <a href="http://youtube.com" target="_blank"><p>YouTube</p></a>
+               </div>         
             </div>
-             <div class="col l6 m12 s12 endereco">
-                <h5 class="white-text">SindGo - Síndicos Profissionais Ltda.</h5>
+             <div class="col l8 m12 s12 endereco">
+                <h5 class="white-text">SindGO - Síndicos Profissionais Ltda.</h5>
                 <p class="grey-text">
-                  Rua Rio Solimões, 1355 - Weissópolis<br>
-                  Barracão 2 - CEP: 83322-150 - Pinhais/PR - Brasil<br>
-                  Telefone: (41) 3653-9389 | (41) 8400-1113<br>
+                  R. Artur Bailo, 60 - Mossunguê<br>
+                   Curitiba - PR | CEP 81200-180<br><br>
                 </p>
              </div>
           </div>
         </div>
       <div class="footer-copyright">
         <div class="container center">
-          SindGo © <?php echo date('Y'); ?> - Todos os direitos reservados | Made by <a class="purple-text text-lighten-3" href="http://www.bulkdesign.com.br" target="blank">Bulk Design</a>
+          SindGO © <?php echo date('Y'); ?> - Todos os direitos reservados | Made by <a class="purple-text text-lighten-3" href="http://www.bulkdesign.com.br" target="blank">Bulk Design</a>
         </div>
       </div>
   </footer>

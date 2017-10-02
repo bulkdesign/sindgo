@@ -14,15 +14,27 @@ Version: 1.0
  */
 
  /* IMPORTAÇÃO DE FONTES */
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700');
+@font-face {
+  font-family: 'Futura BT';
+  src: url('fonts/FuturaBT.eot');
+  src: url('fonts/FuturaBT.eot?#iefix') format('embedded-opentype'),
+    url('fonts/FuturaBT.woff') format('woff'),
+    url('fonts/FuturaBT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Futura BT', sans-serif;
 }
 
 /* DECLARAÇÃO DE ESTILOS GLOBAIS (NÃO MODIFICAR) */
 h1 {
   font-size: 40px !important;
+}
+
+.active{
+  background-color: rgba(0,0,0,0.1);
 }
 
 h3 {
@@ -263,7 +275,7 @@ nav.mobile-menu {
 }
 
 #diferenciais img{
-  width: 100%!important;
+  width: 70%!important;
   height: 200px!important;
   max-height: 200px!important;
 }
@@ -423,6 +435,9 @@ blockquote{
   .toggle-overlay{
     margin-top: 15px!important;
   }
+  #diferenciais img{
+    width: 100%!important;
+  }
 }
 
 @media (min-width: 260px) and (max-width: 601px) {
@@ -439,6 +454,7 @@ blockquote{
   }
 
   #diferenciais img{
-    margin-top: 20px!important;
+    margin-top: 50px!important;
+    height: 150px!important;
   }
 }

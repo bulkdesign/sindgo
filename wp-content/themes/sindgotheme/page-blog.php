@@ -1,4 +1,4 @@
-<?php /* Template Name: Postagem */
+<?php /* Template Name: Blog */
 /**
  * Template para exibir a página personalizada.
  */
@@ -11,7 +11,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col s12 blog">
-				<h1>Postagens</h1>
+				<h1>Blog</h1>
 				<hr>
 			</div>
 			<div>

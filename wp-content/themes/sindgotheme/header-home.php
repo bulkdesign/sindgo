@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="keywords" content="síndicos, profissionais, condomínios, Curitiba">
-    <meta name="description" content="SindGo - Uma empresa que nasceu preparada para cuidar de condominios">
+    <meta name="description" content="SindGO - Uma empresa que nasceu preparada para cuidar de condominios">
     <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/img/logo/favicon.ico" />
     <!-- TÍTULO -->
     <title>
@@ -45,15 +45,16 @@
     <nav class="z-depth-0 cordefundodomenu">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">
+          <a href="http://bulkdesign.com.br/sindgo" class="brand-logo">
             <img src="<?php bloginfo('template_url') ?>/img/logo/logo_horizontal.png" />
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#bemvindo" class="opcaomenu">Home</a></li>
             <li><a href="#quemsomos" class="opcaomenu">Quem Somos</a></li>
             <li><a href="#servicos" class="opcaomenu">Serviços</a></li>
+            <li><a href="#diferenciais" class="opcaomenu">Diferenciais</a></li>
             <li><a href="#contato" class="opcaomenu">Contato</a></li> 
-            <li><a href="postagem" class="opcaomenu">Postagens</a></li>
+            <li><a href="blog" class="opcaomenu">Blog</a></li>
          </ul>
           <main class="hide-on-large-only">
             <a class="toggle-overlay"><i class="small material-icons">menu</i></a>
@@ -73,7 +74,7 @@
         <li><a href="#quemsomos" class="white-text">Quem Somos</a></li>
         <li><a href="#servicos" class="white-text">Serviços</a></li>
         <li><a href="#contato" class="white-text">Contato</a></li> 
-        <li><a href="postagem" class="white-text">Postagens</a></li>
+        <li><a href="blog" class="white-text">Blog</a></li>
       </ul>
     </nav>
   </aside>
