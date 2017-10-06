@@ -259,12 +259,12 @@ nav.mobile-menu {
   background-color: #f1592d;
   padding: 50px;
   color: white;
-  height: 500px;
-  align-items: center;
-  display: flex;
+  height: 550px;
+  padding-top: 130px;
 }
+
 #quemsomos .curriculosobre{
-  height: 500px;
+  height: 550px;
 }
 
 #quemsomos .curriculosobre img{
@@ -448,6 +448,15 @@ blockquote{
   }
   .toggle-overlay{
     margin-top: 15px!important;
+  }
+
+  #quemsomos .textosobre{
+    padding-top: 160px;
+    margin-bottom: 30px;
+  }
+
+  #quemsomos .curriculosobre{
+    margin-bottom: 50px;
   }
 }
 

@@ -103,15 +103,17 @@ get_header('home'); ?>
 						<hr>
 					</div>
 					<div class="col s12">
-						<div class="col s12 m6 textosobre">
+						<div class="col s12 m12 l6 textosobre">
 							<!-- EXIBINDO O QUE HÁ NO CAMPO PERSONALIZADO QUEM SOMOS - POST 'HOME'-->
 					    	<?php if( get_field('quem_somos') ): ?>
 					    		<?php the_field('quem_somos');?>
 					    	<?php endif; ?>					
 					    </div>
-					    <div class="col s12 m6 curriculosobre">
+					    <div class="col s12 m12 l6 curriculosobre">
 					    	<!-- EXIBINDO O QUE HÁ NO CAMPO PERSONALIZADO IMAGEM CURRÍCULO E TEXTO CURRÍCULO - POST 'HOME'-->
 					    	<img src="<?php bloginfo('template_url');?>/img/curriculo/exemplo.jpg" class="responsive-img circle">
+					    	<h3><strong>Gisele Oliveira</strong></h3>
+					    	<h6><strong>Sindica Profissional - Sócia Fundadora SindGO</strong></h6>
 					    	<?php if( get_field('texto_curriculo') ): ?>
 					    		<?php the_field('texto_curriculo');?>
 					    	<?php endif; ?>	
@@ -140,20 +142,29 @@ get_header('home'); ?>
 					<div class="col s12">
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_1'); ?>">
-							<?php if( get_field('diferencial_1') ): ?>
-						    	<p><?php the_field('diferencial_1');?></p>
+							<?php if( get_field('titulo_diferencial_1') ): ?>
+						    	<p><?php the_field('titulo_diferencial_1');?></p>
+						    <?php endif; ?>	
+							<?php if( get_field('texto_diferencial_1') ): ?>
+						    	<p><?php the_field('texto_diferencial_1');?></p>
 						    <?php endif; ?>	
 						</div>
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_2'); ?>">
-							<?php if( get_field('diferencial_2') ): ?>
-						    	<p><?php the_field('diferencial_2');?></p>
+							<?php if( get_field('titulo_diferencial_2') ): ?>
+						    	<p><?php the_field('titulo_diferencial_2');?></p>
 						    <?php endif; ?>	
+							<?php if( get_field('texto_diferencial_2') ): ?>
+						    	<p><?php the_field('texto_diferencial_2');?></p>
+						    <?php endif; ?>		
 						</div>
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_3'); ?>">
-							<?php if( get_field('diferencial_3') ): ?>
-						    	<p><?php the_field('diferencial_3');?></p>
+							<?php if( get_field('titulo_diferencial_3') ): ?>
+						    	<p><?php the_field('titulo_diferencial_3');?></p>
+						    <?php endif; ?>	
+							<?php if( get_field('texto_diferencial_3') ): ?>
+						    	<p><?php the_field('texto_diferencial_3');?></p>
 						    <?php endif; ?>	
 						</div>
 					</div>
