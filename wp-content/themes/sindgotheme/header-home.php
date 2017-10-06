@@ -32,7 +32,7 @@
     <!-- IMPORTAÇÃO DO MATERIALIZE -->
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/materialize.min.css"  media="screen,projection"/>
     <!-- IMPORTAÇÃO DO STYLE.CSS -->
-    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css"  media="screen,projection"/>
     <!-- WP PINGBACK -->
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!-- WP HEAD -->
@@ -50,8 +50,8 @@
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#bemvindo" class="opcaomenu">Home</a></li>
-            <li><a href="#quemsomos" class="opcaomenu">Quem Somos</a></li>
             <li><a href="#servicos" class="opcaomenu">Serviços</a></li>
+            <li><a href="#quemsomos" class="opcaomenu">Quem Somos</a></li>
             <li><a href="#diferenciais" class="opcaomenu">Diferenciais</a></li>
             <li><a href="#contato" class="opcaomenu">Contato</a></li> 
             <li><a href="blog" class="opcaomenu">Blog</a></li>
@@ -71,9 +71,9 @@
     <nav class="mobile-menu">
       <ul>
         <li><a href="#home" class="white-text">Home</a></li>
-        <li><a href="#quemsomos" class="white-text">Quem Somos</a></li>
         <li><a href="#servicos" class="white-text">Serviços</a></li>
         <li><a href="#contato" class="white-text">Contato</a></li> 
+        <li><a href="#quemsomos" class="white-text">Quem Somos</a></li>        
         <li><a href="blog" class="white-text">Blog</a></li>
       </ul>
     </nav>

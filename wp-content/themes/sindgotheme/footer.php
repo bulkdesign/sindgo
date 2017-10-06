@@ -34,31 +34,12 @@
                 </div>
               </div>
           </section>
-          <div class="col s12">
-            <div class="sitemap">
-               <div class="col l2 m6 s12">
-                <h5 class="white-text">Página Inicial</h5>
-                   <a href="#quemsomos"><p>QUem Somos</p></a>
-                   <a href="#servicos"><p>Serviços</p></a>
-                   <a href="#contato"><p>Contato</p></a>
-                   <a href="blog"><p>Blog</p></a>
-               </div>
-                <div class="col l2 m6 s12">
-                <h5 class="white-text">Redes Sociais</h5>
-                   <a href="http://facebook.com" target="_blank"><p>Facebook</p></a>
-                   <a href="http://instagram.com" target="_blank"><p>Instagram</p></a>
-                   <a href="http://twitter.com" target="_blank"><p>Twitter</p></a>
-                   <a href="http://youtube.com" target="_blank"><p>YouTube</p></a>
-               </div>         
+          <section class="social">
+            <div class="col s12">
+              <a href="https://facebook.com" target="_blank"><img src="<?php bloginfo('template_url');?>/img/social/facebook.png"></a>
+              <a href="https://linkedin.com" target="_blank"><img src="<?php bloginfo('template_url');?>/img/social/linkedin.png"></a>
             </div>
-             <div class="col l8 m12 s12 endereco">
-                <h5 class="white-text">SindGO - Síndicos Profissionais Ltda.</h5>
-                <p class="grey-text">
-                  R. Artur Bailo, 60 - Mossunguê<br>
-                   Curitiba - PR | CEP 81200-180<br><br>
-                </p>
-             </div>
-          </div>
+          </section>
         </div>
       <div class="footer-copyright">
         <div class="container center">
