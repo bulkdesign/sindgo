@@ -32,7 +32,7 @@
     <!-- IMPORTAÇÃO DO MATERIALIZE -->
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/materialize.min.css"  media="screen,projection"/>
     <!-- IMPORTAÇÃO DO STYLE.CSS -->
-    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.min.css"  media="screen,projection"/>
     <!-- WP PINGBACK -->
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!-- WP HEAD -->
@@ -45,7 +45,7 @@
     <nav class="z-depth-0 cordefundodomenu">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="http://bulkdesign.com.br/sindgo" class="brand-logo">
+          <a href="http://bulkdesign.com.br/sindgosindicos" class="brand-logo">
             <img src="<?php bloginfo('template_url') ?>/img/logo/logo_horizontal.png" />
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">

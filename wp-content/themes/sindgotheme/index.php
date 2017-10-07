@@ -9,7 +9,7 @@ get_header('home'); ?>
 				<div class="col s12">
 					<img src="<?php bloginfo('template_url');?>/img/logo/logo.png">
 					<h1>Uma empresa que nasceu preparada para cuidar de Condomínios</h1>
-					<a href="#quemsomos"><i class="material-icons seta">keyboard_arrow_down</i></a>
+					<a href="#servicos"><i class="material-icons seta">keyboard_arrow_down</i></a>
 				</div>
 			</div>
 		</div>
@@ -26,70 +26,85 @@ get_header('home'); ?>
 					</div>
 					<div class="col s12">
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/sindico.png">
-							</div>
-							<div class="col s9">
-								<h3>Síndico Profissional</h3>
+							<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/sindico.png">
+								</div>
+								<div class="col s9">
+									<h3>Síndico Profissional</h3>
+								</div>
 							</div>
 							<div class="col s12">
-								<p>Um condomínio precisa uma gestão empresarial, para isto contamos com profissionais capacitados que trabalham de forma isenta e transparente aos condomínios</p>
+								<p>Os condomínios cada vez mais complexos precisam uma gestão empresarial. Como Sindicos Profissionais temos que cumprir o regimento interno e a obrigação de atender as legislações vigentes</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/manutencao.png">
-							</div>
-							<div class="col s9">
-								<h3>Plano de Manutenção Predial</h3>
+							<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/manutencao.png">
+								</div>
+								<div class="col s9">
+									<h3>Plano de Manutenção Predial</h3>
+								</div>
 							</div>
 							<div class="col s12">
-								<p>Aplicamos as orientações da NBR 5674 com o objetivo de garantir a vida útil do condomínio, atuando principalmente de forma preventiva, diminuindo os custos com Manutenções Corretivas</p>
+								<p>Aplicamos as orientações da <a href="http://localhost/sindgo/artigo/norma-nbr-5674/" style="color: darkorange;"><u>NBR 5674</u></a> com o objetivo de garantir a vida útil do condomínio, atuando principalmente de forma preventiva, diminuindo os custos com Manutenções Corretivas</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/reforma.png">
-							</div>
-							<div class="col s9">
-								<h3>Gestão de Reformas em Codomínio</h3>
+							<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/reforma.png">
+								</div>
+								<div class="col s9">
+									<h3>Gestão de Reformas em Codomínio</h3>
+								</div>
 							</div>
 							<div class="col s12">
-								<p>Qualquer intervenção em unidades autônomas ou áreas comuns devem ser tratadas de forma organizada e com segurança. Trazemos os procedimentos e recomendações da NBR 16.280 aplicadas para o dia-a-dia do condomínio</p>
+								<p>Qualquer intervenção em unidades autônomas ou áreas comuns devem ser tratadas de forma organizada e com segurança. Trazemos os procedimentos e recomendações da <a href="http://localhost/sindgo/artigo/nbr-16-280/" style="color: darkorange;"><u>NBR 16.280</u></a> aplicadas para o dia-a-dia do condomínio</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/financeiro.png">
-							</div>
-							<div class="col s9">
-								<h3>Gestão Financeira</h3>
+							<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/financeiro.png">
+								</div>
+								<div class="col s9">
+									<h3>Gestão Financeira</h3>
+								</div>							
 							</div>
 							<div class="col s12">
-								<p>Saber controlar os custos e discriminar corretamente os gastos traz transparência e assertividade aos nossos orçamentos</p>
+								<p>Saber controlar os custos e discriminar corretamente os gastos traz transparência e assertividade aos nossos orçamentos. O Planejamento financeiro de curto e médio prazo é nossa ferramenta para alcançar as metas almejadas do condomínio</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/contratacao.png">
-							</div>
-							<div class="col s9">
-								<h3>Apoio Técnico para contratação</h3>
+							<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/contratacao.png">
+								</div>
+								<div class="col s9">
+									<h3>Apoio Técnico para contratação</h3>
+								</div>
 							</div>
 							<div class="col s12">
-								<p>Saber controlar os custos e discriminar corretamente os gastos traz transparência e assertividade aos nossos orçamentos</p>
+								<p>Definir escopo e saber como receber os serviços prestados é imprescindível para uma boa contratação. Fazemos concorrências com fornecedores e parceiros buscando o melhor custo benefício para o condomínio</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
-							<div class="col s3">
-								<img src="<?php bloginfo('template_url');?>/img/diferencial/inspecao.png">
-							</div>
-							<div class="col s9">
-								<h3>Inspeção Predial</h3>
+								<div class="col s12 servicocabecalho">
+								<div class="col s3">
+									<img src="<?php bloginfo('template_url');?>/img/servicos/inspecao.png">
+								</div>
+								<div class="col s9">
+									<h3>Inspeção Predial</h3>
+								</div>
 							</div>
 							<div class="col s12">
-								<p>Uma inspeção predial é como check up das edificações, gerando um laudo das anomalias e manifestações patologias, necessário para atuar na manutenção corretiva</p>
+								<p>Uma inspeção predial é como <i>check up</i> das edificações, gerando um laudo das anomalias e manifestações patologias, necessário para atuar na manutenção corretiva</p>
 							</div>
+						</div>
+						<div class="col s12" style="padding-top: 50px;">
+							<h3>Marque uma reunião com a gente e faremos uma proposta para seu condomínio <br> Ligue: (xx) xxxxx-xxxx)</h3>
 						</div>
 					</div>
 				</div>
@@ -103,13 +118,13 @@ get_header('home'); ?>
 						<hr>
 					</div>
 					<div class="col s12">
-						<div class="col s12 m12 l6 textosobre">
+						<div class="col s12 m12 l4 textosobre">
 							<!-- EXIBINDO O QUE HÁ NO CAMPO PERSONALIZADO QUEM SOMOS - POST 'HOME'-->
 					    	<?php if( get_field('quem_somos') ): ?>
 					    		<?php the_field('quem_somos');?>
 					    	<?php endif; ?>					
 					    </div>
-					    <div class="col s12 m12 l6 curriculosobre">
+					    <div class="col s12 m12 l8 curriculosobre">
 					    	<!-- EXIBINDO O QUE HÁ NO CAMPO PERSONALIZADO IMAGEM CURRÍCULO E TEXTO CURRÍCULO - POST 'HOME'-->
 					    	<img src="<?php bloginfo('template_url');?>/img/curriculo/exemplo.jpg" class="responsive-img circle">
 					    	<h3><strong>Gisele Oliveira</strong></h3>
@@ -143,7 +158,7 @@ get_header('home'); ?>
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_1'); ?>">
 							<?php if( get_field('titulo_diferencial_1') ): ?>
-						    	<p><?php the_field('titulo_diferencial_1');?></p>
+						    	<h3><strong><?php the_field('titulo_diferencial_1');?></strong></h3>
 						    <?php endif; ?>	
 							<?php if( get_field('texto_diferencial_1') ): ?>
 						    	<p><?php the_field('texto_diferencial_1');?></p>
@@ -152,7 +167,7 @@ get_header('home'); ?>
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_2'); ?>">
 							<?php if( get_field('titulo_diferencial_2') ): ?>
-						    	<p><?php the_field('titulo_diferencial_2');?></p>
+						    	<h3><strong><?php the_field('titulo_diferencial_2');?></strong></h3>
 						    <?php endif; ?>	
 							<?php if( get_field('texto_diferencial_2') ): ?>
 						    	<p><?php the_field('texto_diferencial_2');?></p>
@@ -161,7 +176,7 @@ get_header('home'); ?>
 						<div class="col s12 m4">
 							<img src="<?php the_field('imagem_diferencial_3'); ?>">
 							<?php if( get_field('titulo_diferencial_3') ): ?>
-						    	<p><?php the_field('titulo_diferencial_3');?></p>
+						    	<h3><strong><?php the_field('titulo_diferencial_3');?></strong></h3>
 						    <?php endif; ?>	
 							<?php if( get_field('texto_diferencial_3') ): ?>
 						    	<p><?php the_field('texto_diferencial_3');?></p>

@@ -206,12 +206,12 @@ nav.mobile-menu {
 }
 
 #bemvindo img{
-  width: 200px;
-  margin-top: 150px;
+  width: 250px;
+  margin-top: 170px;
 }
 
 #bemvindo h1{
-  margin-top: 75px;
+  margin-top: 50px;
   color: white;
 }
 
@@ -257,14 +257,19 @@ nav.mobile-menu {
 
 #quemsomos .textosobre{
   background-color: #f1592d;
-  padding: 50px;
   color: white;
   height: 550px;
-  padding-top: 130px;
+  padding: 80px 50px;
+  text-align: justify;
 }
 
 #quemsomos .curriculosobre{
   height: 550px;
+}
+
+#quemsomos .curriculosobre p{
+  padding-left: 50px;
+  text-align: justify;
 }
 
 #quemsomos .curriculosobre img{
@@ -272,6 +277,10 @@ nav.mobile-menu {
   height: 200px!important;
   border: 3px solid #f1592d;
   text-align: center;
+}
+
+#diferenciais, #sobre{
+  padding-bottom: 0;
 }
 
 .banner{
@@ -291,8 +300,12 @@ nav.mobile-menu {
   margin-top: 15px;
 }
 
-.slideshow_slide .slideshow_slide_text{
-  text-align: justify!important;
+.servicocabecalho{
+  height: 75px!important;
+}
+
+.servico p{
+  text-align: justify;
 }
 
 #diferenciais img{
@@ -446,6 +459,19 @@ blockquote{
   .servico{
     margin-top: 45px;
   }
+
+  .servicocabecalho{
+    height: 120px!important;
+  }
+
+  .servicocabecalho img{
+    margin-left: -20px;
+  }
+
+  .servico p{
+    text-align: justify!important;
+  }
+
   .toggle-overlay{
     margin-top: 15px!important;
   }
@@ -458,9 +484,13 @@ blockquote{
   #quemsomos .curriculosobre{
     margin-bottom: 50px;
   }
+
+  #quemsomos .curriculosobre p{
+    padding-left: 0px!important;
+  }
 }
 
-@media (min-width: 260px) and (max-width: 601px) {
+@media (min-width: 260px) and (max-width: 600px) {
   h1 {
     font-size: 20px;
   }
@@ -479,9 +509,22 @@ blockquote{
 
   #quemsomos .textosobre{
     margin-bottom: 50px;
+    padding-top: 80px;
+  }
+
+  #quemsomos .curriculosobre{
+    margin-bottom: 75px;
   }
 
   .servico{
     margin-top: 30px;
+  }
+
+  #quemsomos .curriculosobre p{
+    padding-left: 0px!important;
+  }
+
+  .servicocabecalho{
+    height: 60px!important;
   }
 }

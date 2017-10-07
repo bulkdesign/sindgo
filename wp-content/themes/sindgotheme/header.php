@@ -44,7 +44,7 @@
     <nav class="z-depth-0 cordefundodomenu">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="http://bulkdesign.com.br/sindgo" class="brand-logo">
+          <a href="http://bulkdesign.com.br/sindgosindicos" class="brand-logo">
             <img src="<?php bloginfo('template_url') ?>/img/logo/logo_horizontal.png" />
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
