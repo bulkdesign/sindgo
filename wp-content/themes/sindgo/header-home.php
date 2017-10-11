@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta name="keywords" content="síndicos, profissionais, condomínios, Curitiba">
-    <meta name="description" content="SindGO - Uma empresa que nasceu preparada para cuidar de condominios">
+    <meta name="description" content="SindGO - Uma empresa que nasceu preparada para cuidar de condomínios">
     <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/img/logo/favicon.ico" />
     <!-- TÍTULO -->
     <title>
@@ -32,7 +32,7 @@
     <!-- IMPORTAÇÃO DO MATERIALIZE -->
     <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/materialize.min.css"  media="screen,projection"/>
     <!-- IMPORTAÇÃO DO STYLE.CSS -->
-    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css"  media="screen,projection"/>
     <!-- WP PINGBACK -->
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <!-- WP HEAD -->
@@ -74,7 +74,7 @@
         <li><a href="#servicos" class="white-text">Serviços</a></li>
         <li><a href="#contato" class="white-text">Contato</a></li> 
         <li><a href="#quemsomos" class="white-text">Quem Somos</a></li>        
-        <li><a href="blog" class="white-text">Blog</a></li>
+        <li><a href="/blog" class="white-text">Blog</a></li>
       </ul>
     </nav>
   </aside>

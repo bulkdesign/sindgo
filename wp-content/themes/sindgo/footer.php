@@ -39,7 +39,7 @@
               <a href="https://facebook.com" target="_blank"><img src="<?php bloginfo('template_url');?>/img/social/facebook.png"></a>
               <a href="https://linkedin.com" target="_blank"><img src="<?php bloginfo('template_url');?>/img/social/linkedin.png"></a>
               <p class="white-text">(xx) xxxxx-xxxx</p>
-              <p class="white-text">sindgo@sindgo.com.br</p>
+              <p class="white-text"><a href="mailto:goliveira@sindgo.com">goliveira@sindgo.com</a></p>
             </div>
           </section>
         </div>

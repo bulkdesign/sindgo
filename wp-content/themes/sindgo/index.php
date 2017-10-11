@@ -35,7 +35,7 @@ get_header('home'); ?>
 								</div>
 							</div>
 							<div class="col s12">
-								<p>Os condomínios cada vez mais complexos precisam uma gestão empresarial. Como Sindicos Profissionais temos que cumprir o regimento interno e a obrigação de atender as legislações vigentes</p>
+								<p>Os condomínios cada vez mais complexos precisam uma gestão empresarial. Como Síndicos Profissionais temos que cumprir o regimento interno e a obrigação de atender as legislações vigentes.</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
@@ -48,7 +48,7 @@ get_header('home'); ?>
 								</div>
 							</div>
 							<div class="col s12">
-								<p>Aplicamos as orientações da <a href="http://localhost/sindgo/artigo/norma-nbr-5674/" style="color: darkorange;"><u>NBR 5674</u></a> com o objetivo de garantir a vida útil do condomínio, atuando principalmente de forma preventiva, diminuindo os custos com Manutenções Corretivas</p>
+								<p>Aplicamos as orientações da <a href="http://www.sindgo.com/artigo/norma-nbr-5674/" style="color: darkorange;"><u>NBR 5674</u></a> com o objetivo de garantir a vida útil do condomínio, atuando principalmente de forma preventiva, diminuindo os custos com Manutenções Corretivas.</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
@@ -57,11 +57,11 @@ get_header('home'); ?>
 									<img src="<?php bloginfo('template_url');?>/img/servicos/reforma.png">
 								</div>
 								<div class="col s9">
-									<h3>Gestão de Reformas em Codomínio</h3>
+									<h3>Gestão de Reformas em Condomínio</h3>
 								</div>
 							</div>
 							<div class="col s12">
-								<p>Qualquer intervenção em unidades autônomas ou áreas comuns devem ser tratadas de forma organizada e com segurança. Trazemos os procedimentos e recomendações da <a href="http://localhost/sindgo/artigo/nbr-16-280/" style="color: darkorange;"><u>NBR 16.280</u></a> aplicadas para o dia-a-dia do condomínio</p>
+								<p>Qualquer intervenção em unidades autônomas ou áreas comuns devem ser tratadas de forma organizada e com segurança. Trazemos os procedimentos e recomendações da <a href="http://www.sindgo.com/artigo/nbr-16-280/" style="color: darkorange;"><u>NBR 16.280</u></a> aplicadas para o dia-a-dia do condomínio.</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
@@ -74,7 +74,7 @@ get_header('home'); ?>
 								</div>							
 							</div>
 							<div class="col s12">
-								<p>Saber controlar os custos e discriminar corretamente os gastos traz transparência e assertividade aos nossos orçamentos. O Planejamento financeiro de curto e médio prazo é nossa ferramenta para alcançar as metas almejadas do condomínio</p>
+								<p>Saber controlar os custos e discriminar corretamente os gastos traz transparência e assertividade aos nossos orçamentos. O Planejamento financeiro de curto e médio prazo é nossa ferramenta para alcançar as metas almejadas do condomínio.</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
@@ -87,7 +87,7 @@ get_header('home'); ?>
 								</div>
 							</div>
 							<div class="col s12">
-								<p>Definir escopo e saber como receber os serviços prestados é imprescindível para uma boa contratação. Fazemos concorrências com fornecedores e parceiros buscando o melhor custo benefício para o condomínio</p>
+								<p>Definir escopo e saber como receber os serviços prestados é imprescindível para uma boa contratação. Fazemos concorrências com fornecedores e parceiros buscando o melhor custo benefício para o condomínio.</p>
 							</div>
 						</div>
 						<div class="col s12 m4 servico">
@@ -100,11 +100,13 @@ get_header('home'); ?>
 								</div>
 							</div>
 							<div class="col s12">
-								<p>Uma inspeção predial é como <i>check up</i> das edificações, gerando um laudo das anomalias e manifestações patologias, necessário para atuar na manutenção corretiva</p>
+								<p>Uma inspeção predial é como <i>check up</i> das edificações, gerando um laudo das anomalias e manifestações patologias, necessário para atuar na manutenção corretiva.</p>
 							</div>
 						</div>
 						<div class="col s12" style="padding-top: 50px;">
-							<h3>Marque uma reunião com a gente e faremos uma proposta para seu condomínio <br> Ligue: (xx) xxxxx-xxxx)</h3>
+							<h3>Marque uma reunião com a gente e faremos uma proposta para seu condomínio.
+								<br><br>Ligue: (xx) xxxxx-xxxx)
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -126,7 +128,7 @@ get_header('home'); ?>
 					    </div>
 					    <div class="col s12 m12 l8 curriculosobre">
 					    	<!-- EXIBINDO O QUE HÁ NO CAMPO PERSONALIZADO IMAGEM CURRÍCULO E TEXTO CURRÍCULO - POST 'HOME'-->
-					    	<img src="<?php bloginfo('template_url');?>/img/curriculo/exemplo.jpg" class="responsive-img circle">
+					    	<img src="<?php bloginfo('template_url');?>/img/curriculo/foto.png" class="responsive-img circle">
 					    	<h3><strong>Gisele Oliveira</strong></h3>
 					    	<h6><strong>Sindica Profissional - Sócia Fundadora SindGO</strong></h6>
 					    	<?php if( get_field('texto_curriculo') ): ?>
