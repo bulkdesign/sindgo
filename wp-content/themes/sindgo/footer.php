@@ -15,22 +15,7 @@
                         <h3>Entre em Contato Conosco</h3>
                     </div>
                     <div class="col l2"></div>
-                    <div class="col s12 m12 l8 margin50">
-                        <form>
-                            <div class="col s12 m6 l6">
-                                <input type="text" name="ContatoNome" placeholder="Seu Nome (Requerido)">
-                            </div>
-                            <div class=" col s12 m6 l6">
-                                <input type="text" name="ContatoEmail" placeholder="Seu E-mail (Requerido)">
-                            </div>
-                            <div class="col s12">
-                                <input type="text" name="ContatoTelefone" placeholder="Sua Mensagem">
-                            </div>
-                            <div class="col s12">
-                                <input type="submit" value="Enviar" name="btnEnviar" class="btn">
-                            </div>
-                        </form>
-                    </div>
+                    <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]'); ?>
                 </div>
               </div>
           </section>
